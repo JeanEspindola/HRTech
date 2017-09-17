@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en-US" data-ng-app="hrtech">
+
+<head>
+    <title>HRTech</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="Sat, 01 Dec 2001 00:00:00 GMT">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- @@VENDOR-STYLES@@ -->
+    <!-- @@APP-STYLES@@ -->
+</head>
+
+<body data-ng-controller="hrtech.mainController as mainCtrl" class="main-container">
+
+    <div class="header">dfdfdfdf bbbb</div>
+
+    <div ui-view></div>
+    <div data-ng-if="!mainCtrl.isAppLoaded" class="main-body">
+    </div>
+
+    <div class="footer">dffdfdf</div>
+
+    <div data-ng-if="mainCtrl.isLoading" class="loading-overlay">
+        <i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
+    </div>
+
+    <!-- @@VENDOR-SCRIPTS@@ -->
+    <!-- @@APP-SCRIPTS@@ -->
+</body>
+</html>
