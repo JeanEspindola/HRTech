@@ -1,0 +1,31 @@
+{
+  "name": "HRTech",
+  "version": "1.0.0",
+  "description": "HRTech tickets App",
+  "keywords": [
+    "Angular",
+    "Bootstrap",
+    "JQuery",
+    "Grunt"
+  ],
+  "devDependencies": {
+    "angular-mocks": "1.5.0",
+    "sinonjs": "~1.10.2"
+  },
+  "dependencies": {
+    "angular": "1.5.8",
+    "bootstrap": "3.1.1",
+    "jquery": "2.1.4",
+    "angular-bootstrap": "0.13.0",
+    "angular-mocks": "1.4.4",
+    "angular-animate": "1.5.0",
+    "angular-resource": "1.4.4",
+    "angular-ui-router": "0.2.15",
+    "fontawesome": "*",
+    "font-awesome": "*",
+    "moment": "2.10.6"
+  },
+  "resolutions": {
+    "angular": "1.5.0"
+  }
+}
