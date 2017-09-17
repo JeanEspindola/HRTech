@@ -29,6 +29,18 @@ module.exports = function (grunt) {
                     dest: config.build.distVendorDir + '/fonts/'
                 }
             ]
+        },
+
+        resources: {
+            files: [
+                {
+                    expand: true,
+                    src: [
+                        config.app.wildcards.resources
+                    ],
+                    dest: config.build.hrtechDir
+                }
+            ]
         }
     });
 
@@ -36,7 +48,8 @@ module.exports = function (grunt) {
     grunt.registerTask('copy:all', '', function(env) {
         grunt.task.run([
             'copy:common',
-            'copy:fonts'
+            'copy:fonts',
+            'copy:resources'
         ]);
     });
 };

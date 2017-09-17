@@ -15,13 +15,17 @@
 
 <body data-ng-controller="hrtech.mainController as mainCtrl" class="main-container">
 
-    <div class="header">dfdfdfdf bbbb</div>
+    <div class="header">
+        <img src="resources/menu-logo-2.svg">
+    </div>
 
     <div ui-view></div>
     <div data-ng-if="!mainCtrl.isAppLoaded" class="main-body">
     </div>
 
-    <div class="footer">dffdfdf</div>
+    <div class="footer">
+        <img src="resources/hr-tech-world-logo.svg">
+    </div>
 
     <div data-ng-if="mainCtrl.isLoading" class="loading-overlay">
         <i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
