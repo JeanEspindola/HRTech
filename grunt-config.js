@@ -27,6 +27,7 @@ module.exports = {
                 'app/**/*.js',
                 '!app/**/*-spec.js'
             ],
+            resources: 'resources/*.*',
             vendorJsSrc: [
                 'vendor/jquery/dist/jquery.js',
                 'vendor/jqueryui/jquery-ui.js',

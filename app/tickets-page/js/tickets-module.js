@@ -8,6 +8,8 @@
     angular
         .module('hrtech.tickets', [
             'ui.router',
-            'hrtech.core'
+            'hrtech.core',
+            'hrtech.component.header',
+            'hrtech.component.packagesCard'
         ]);
 })();
