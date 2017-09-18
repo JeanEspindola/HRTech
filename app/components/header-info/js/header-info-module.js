@@ -7,5 +7,6 @@
 
     angular
         .module('hrtech.component.header', [
+            'hrtech.core'
         ]);
 })();

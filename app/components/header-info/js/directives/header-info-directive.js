@@ -9,12 +9,14 @@
         .module('hrtech.component.header')
         .directive('headerInfo', headerInfo);
 
-    headerInfo.$inject = [];
+    headerInfo.$inject = [
+        '$rootScope',
+        'hrtech.core.ticketsType'
+    ];
 
-    function headerInfo(){
+    function headerInfo($rootScope, ticketsType){
 
-        function headerInfoController(){
-
+        function headerInfoController($scope){
         }
 
         return {

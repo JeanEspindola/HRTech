@@ -9,17 +9,22 @@
         .module('hrtech.component.packagesCard')
         .directive('packagesCard', packagesCard);
 
-    packagesCard.$inject = [];
+    packagesCard.$inject = [
+        '$rootScope',
+        'hrtech.core.packageConstant'
+    ];
 
-    function packagesCard(){
+    function packagesCard($rootScope, packageConstant){
 
-        function packagesCardController(){
+        function packagesCardController($scope){
 
+            var vm = this;
         }
 
         return {
             restrict: 'E',
             scope: {
+                package: '<'
             },
             templateUrl: '/app/components/packages-card/views/packages-card.html',
             controller: ['$scope', packagesCardController],

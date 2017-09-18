@@ -10,16 +10,17 @@
 
     ticketsController.$inject = [
         '$scope',
-        '$q',
-        '$filter'
+        'hrtech.core.packageConstant'
     ];
 
-    function ticketsController($scope, $q, $filter){
+    function ticketsController($scope, packageConstant){
 
         //Gets the local scope.
         var vm = this;
 
         function init(){
+
+            vm.packages = packageConstant;
         }
 
         init();
