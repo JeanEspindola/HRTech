@@ -17,7 +17,7 @@
 
         $stateProvider.state('tickets', {
             url: '/tickets',
-            templateUrl: '/app/tickets-page/views/tickets.html',
+            templateUrl: '/app/tickets-page/tickets.html',
             controller: 'hrtech.tickets.ticketsController',
             controllerAs: 'ticketsCtrl'
         });

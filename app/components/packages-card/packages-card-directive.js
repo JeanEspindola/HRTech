@@ -26,11 +26,10 @@
             scope: {
                 package: '<'
             },
-            templateUrl: '/app/components/packages-card/views/packages-card.html',
+            templateUrl: '/app/components/packages-card/packages-card.html',
             controller: ['$scope', packagesCardController],
             controllerAs: 'vm',
             bindToController: true
         }
-
     }
 })();
