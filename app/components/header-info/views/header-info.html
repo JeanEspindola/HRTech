@@ -1,3 +1,15 @@
-<div>
-    Header Info
+<div class="header-container phone visible-xs">
+    <div class="ticket-box">
+        <div data-ng-repeat="type in vm.ticketsType" class="ticket-type {{type.class}}">
+            <div class="row"><img src="resources/{{type.icon}}"/></div>
+            <div class="row"><span>{{type.title}}</span></div>
+        </div>
+    </div>
+</div>
+<div class="header-container others visible-sm visible-md visible-lg">
+    <div class="ticket-box">
+        <div data-ng-repeat="type in vm.ticketsType" class="ticket-type {{type.class}}">
+            <img src="resources/{{type.icon}}"/> <span>{{type.title}}</span>
+        </div>
+    </div>
 </div>
