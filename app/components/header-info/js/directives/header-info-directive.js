@@ -17,6 +17,10 @@
     function headerInfo($rootScope, ticketsType){
 
         function headerInfoController($scope){
+
+            var vm = this;
+
+            vm.ticketsType = ticketsType;
         }
 
         return {

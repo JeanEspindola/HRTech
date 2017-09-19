@@ -43,16 +43,24 @@
         })
         .constant('hrtech.core.ticketsType', {
             1: {
-                title: 'Single Attandee'
+                title: 'Single Attandee',
+                icon: 'single_icon.svg',
+                class: 'active'
             },
             2: {
-                title: 'Group Tickets'
+                title: 'Group Tickets',
+                icon: 'group_icon.svg',
+                class: 'inactive'
             },
             3: {
-                title: 'Investor'
+                title: 'Investor',
+                icon: 'investors.svg',
+                class: 'inactive'
             },
             4: {
-                title: 'Startups'
+                title: 'Startups',
+                icon: 'startup_icon.svg',
+                class: 'inactive'
             }
         }
     )
