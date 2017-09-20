@@ -12,8 +12,8 @@ module.exports = {
         distScriptsFile: 'build/static/hrtech/hrtech.min.js',
         distStylesFile: 'build/static/hrtech/hrtech.min.css',
         distVendorDir: 'build/static/hrtech/vendor',
-        vendorScriptsFile: 'build/static/hrtech/vendor/js/vendor.min.js',
-        vendorStylesFile: 'build/static/hrtech/vendor/css/vendor.min.css'
+        vendorScriptsFile: 'build/static/hrtech/vendor/vendor.min.js',
+        vendorStylesFile: 'build/static/hrtech/vendor/vendor.min.css'
     },
     app: {
         wildcards: {
