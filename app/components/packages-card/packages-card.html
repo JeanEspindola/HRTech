@@ -1,3 +1,17 @@
-<div>
-    Packages card
+<div class="packages-container">
+    <div class="box-container">
+        <div class="package-box" data-ng-repeat="package in vm.packages track by $index">
+
+            <div class="title bold">{{package.title}}</div>
+            <div class="value bold"><i class="fa fa-euro"></i>{{package.value}}</div>
+            <div class="saver" data-ng-if="package.saver">{{package.saver}}</div>
+            <div class="validTill" data-ng-if="package.validTill">{{package.validTill}}</div>
+            <div class="promoCode" data-ng-if="package.promoCode">{{package.promoCode}}</div>
+            <div class="promoField" data-ng-if="package.promoField">
+                <input placeholder="{{package.promoField}}">
+            </div>
+
+            <div class="book">Book</div>
+        </div>
+    </div>
 </div>

@@ -1,26 +1,35 @@
 .header-container{
   background-color: #e1e1e1;
   border: thin;
-  height: 90px;
   
   .ticket-box{
     padding-top: 18px;
     margin-left: 10vw;
     margin-right: 10vw;
     width: 80vw;
-    position: absolute;
     
     .ticket-type{
+      cursor: pointer;
       display: inline-block;
       width: 20vw;
       text-align: center;
       text-transform: uppercase;
+
+      :hover{
+        color: #00a7e1;
+      }
+
+      .icon {
+        max-width: 32px;
+        max-height: 32px;
+      }
     } 
   }
 }
 
 .active {
   color: #00a7e1;
+  font-weight: bold;
 }
 
 .inactive {

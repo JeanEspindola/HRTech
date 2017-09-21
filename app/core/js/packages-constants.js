@@ -10,7 +10,7 @@
             1: {
                 title: 'Summer saver',
                 value: '1595',
-                saver: 'Save 300',
+                saver: 'Save €300',
                 validTill: 'Until August 31',
                 promoCode: '',
                 promoField: ''
@@ -26,7 +26,7 @@
             3: {
                 title: 'Public & Governmental Sector',
                 value: '1295',
-                saver: 'Save 300 from the Summer Saver',
+                saver: 'Save €300 from the Summer Saver',
                 validTill: 'Until October',
                 promoCode: '',
                 promoField: ''
