@@ -1,27 +1,27 @@
 .packages-container {
-  width: 100vw;
+  width: 100%;
+  margin: 0 auto;
 
   .box-container {
     position: relative;
+    margin-left: 5px;
+    margin-right: 5px;
+
+    text-align: -webkit-center;
 
     .package-box {
       height: 300px;
       background-color: #f8f8f8;
-      width: 100vw;
       max-width: 380px;
       margin-top: 25px;
 
       position: relative;
       padding-bottom: 50px;
-
-      /*   position: absolute;
-         left: 0;
-         top: 0;
-         visibility: visible;*/
-
-      text-align: center;
       color: #00a7e1;
       text-transform: uppercase;
+
+      margin-left: 5px;
+      margin-right: 5px;
 
       .bold {
         font-weight: bold;
@@ -70,6 +70,29 @@
         position: absolute;
         bottom: 0;
         width: 100%;
+        cursor: pointer;
+        font-weight: bold;
+
+        &:hover{
+          background-color: white;
+          color: #00a7e1;
+          border-color: #00a7e1;
+          border-style: inset;
+          border-width: thin;
+        }
+      }
+    }
+
+    .promo {
+      height: 350px !important;
+      .book {
+        background-color: red !important;
+
+        &:hover {
+          background-color: white !important;
+          color: red !important;
+          border-color: red !important;
+        }
       }
     }
   }

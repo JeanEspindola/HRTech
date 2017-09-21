@@ -1,6 +1,6 @@
 <div class="packages-container">
-    <div class="box-container">
-        <div class="package-box" data-ng-repeat="package in vm.packages track by $index">
+    <div class="box-container row">
+        <div class="package-box col-sm-3 {{package.groupTypePromo === vm.groupType ? 'promo' : ''}}" id="package-{{package.id}}" data-ng-repeat="package in vm.packages track by $index">
 
             <div class="title bold">{{package.title}}</div>
             <div class="value bold"><i class="fa fa-euro"></i>{{package.value}}</div>
@@ -11,7 +11,7 @@
                 <input placeholder="{{package.promoField}}">
             </div>
 
-            <div class="book">Book</div>
+            <div class="book">Book Now</div>
         </div>
     </div>
 </div>
