@@ -8,6 +8,7 @@
         .module('hrtech.core')
         .constant('hrtech.core.packageConstant', {
             1: {
+                id: 1,
                 title: 'Summer saver',
                 value: '1595',
                 saver: 'Save €300',
@@ -16,6 +17,7 @@
                 promoField: ''
             },
             2: {
+                id: 2,
                 title: 'Expo Only',
                 value: '299',
                 saver: '',
@@ -24,6 +26,7 @@
                 promoField: ''
             },
             3: {
+                id: 3,
                 title: 'Public & Governmental Sector',
                 value: '1295',
                 saver: 'Save €300 from the Summer Saver',
@@ -32,6 +35,7 @@
                 promoField: ''
             },
             4: {
+                id: 4,
                 title: 'Standard Conference & Expo',
                 value: '1695',
                 saver: '',
