@@ -17,13 +17,6 @@
 
       position: relative;
       padding-bottom: 50px;
-
-      /*   position: absolute;
-         left: 0;
-         top: 0;
-         visibility: visible;*/
-
-      //text-align: center;
       color: #00a7e1;
       text-transform: uppercase;
 
@@ -77,6 +70,29 @@
         position: absolute;
         bottom: 0;
         width: 100%;
+        cursor: pointer;
+        font-weight: bold;
+
+        &:hover{
+          background-color: white;
+          color: #00a7e1;
+          border-color: #00a7e1;
+          border-style: inset;
+          border-width: thin;
+        }
+      }
+    }
+
+    .promo {
+      height: 350px !important;
+      .book {
+        background-color: red !important;
+
+        &:hover {
+          background-color: white !important;
+          color: red !important;
+          border-color: red !important;
+        }
       }
     }
   }
