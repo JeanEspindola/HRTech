@@ -18,8 +18,6 @@
         function packagesCardController($scope){
 
             var vm = this;
-
-            console.log(vm.packages)
         }
 
         return {

@@ -14,7 +14,8 @@
                 saver: 'Save €300',
                 validTill: 'Until August 31',
                 promoCode: '',
-                promoField: ''
+                promoField: '',
+                groupTypePromo: 2
             },
             2: {
                 id: 2,
@@ -23,7 +24,8 @@
                 saver: '',
                 validTill: 'Until October',
                 promoCode: '',
-                promoField: ''
+                promoField: '',
+                groupTypePromo: 1
             },
             3: {
                 id: 3,
@@ -32,7 +34,8 @@
                 saver: 'Save €300 from the Summer Saver',
                 validTill: 'Until October',
                 promoCode: '',
-                promoField: ''
+                promoField: '',
+                groupTypePromo: 4
             },
             4: {
                 id: 4,
@@ -41,27 +44,32 @@
                 saver: '',
                 validTill: '',
                 promoCode: 'Do you have a promo code?',
-                promoField: 'Type here & then pick DAY01/DAY02 OR BOTH'
+                promoField: 'Type here & then pick DAY01/DAY02 OR BOTH',
+                groupTypePromo: 3
             }
 
         })
         .constant('hrtech.core.ticketsType', {
             1: {
+                id: 1,
                 title: 'Single Attandee',
                 icon: 'single_icon.svg',
                 class: 'active'
             },
             2: {
+                id: 2,
                 title: 'Group Tickets',
                 icon: 'group_icon.svg',
                 class: 'inactive'
             },
             3: {
+                id: 3,
                 title: 'Investor',
                 icon: 'investors.svg',
                 class: 'inactive'
             },
             4: {
+                id: 4,
                 title: 'Startups',
                 icon: 'startup_icon.svg',
                 class: 'inactive'

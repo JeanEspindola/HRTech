@@ -21,6 +21,7 @@
         function init(){
 
             vm.packages = packageConstant;
+            vm.selected = 1;
         }
 
         init();
