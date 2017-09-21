@@ -10,21 +10,23 @@
         .directive('packagesCard', packagesCard);
 
     packagesCard.$inject = [
-        '$rootScope',
-        'hrtech.core.packageConstant'
+        '$rootScope'
     ];
 
-    function packagesCard($rootScope, packageConstant){
+    function packagesCard($rootScope){
 
         function packagesCardController($scope){
 
             var vm = this;
+
+            console.log(vm.packages)
         }
 
         return {
             restrict: 'E',
             scope: {
-                package: '<'
+                packages: '<',
+                groupType: '='
             },
             templateUrl: '/app/components/packages-card/packages-card.html',
             controller: ['$scope', packagesCardController],
