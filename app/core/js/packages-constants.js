@@ -15,7 +15,7 @@
                 validTill: 'Until August 31',
                 promoCode: '',
                 promoField: '',
-                groupTypePromo: 2
+                groupTypePromo: ''
             },
             2: {
                 id: 2,
@@ -77,17 +77,3 @@
         }
     )
 })();
-
-/*
- Early Bird Soldout / Summer Saver {icone} until aug31 / Regular / Late / Onsite registration
-
-
- Fashion axe keytar truffaut migas. Farm-to-table PBR&B. Drinking vinegar sustainable helvetica sartorial. Dreamcatcher live-edge lo-fi, chartreuse echo park pinterest ditilley glossier plaid fingerstache. Fashion axe keytar truffaut migas. Farm-to-table PBR&B. Drinking vinegar sustainable helvetica
-
- Cold-pressed poke thundercats brooklyn chillwave chartreuse
- Craft beer 3 wolf moon tbh hoodie
- YOLO synth hammock
- Distilery aesthetic VHS affogato gentrify bespoke
- Chia readymade schlitz brunch yuccie echo park
-
- */

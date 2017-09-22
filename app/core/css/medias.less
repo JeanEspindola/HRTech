@@ -7,6 +7,27 @@
 
       .package-box {
         max-width: 920px;
+        height: 380px;
+
+        .extra-text {
+          display: block;
+        }
+      }
+
+      .promo {
+          height: 430px !important;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 1919px) {
+  .packages-container {
+    .box-container {
+      .package-box {
+        .extra-text {
+          display: none;
+        }
       }
     }
   }
@@ -18,6 +39,20 @@
     padding-right: 0;
 
     width: 24%
+  }
+
+  .tickets-body {
+    .info {
+      display: block;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .tickets-body {
+    .info {
+      display: none;
+    }
   }
 }
 
@@ -46,6 +81,14 @@
         .break-line{
           display: none;
         }
+      }
+    }
+  }
+
+  .selection-type {
+    .list {
+      .break {
+        display: none
       }
     }
   }
@@ -82,6 +125,18 @@
           margin-top: 10px;
         }
       }
+    }
+  }
+
+  .selection-type {
+    .list {
+      .slash {
+        display: none;
+      }
+      .slash-reg {
+        display: none;
+      }
+
     }
   }
 
