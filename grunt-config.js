@@ -64,7 +64,11 @@ module.exports = {
             ],
             vendorStyleSrc: [
                 'vendor/bootstrap/dist/css/bootstrap.min.css',
-                'vendor/font-awesome/css/font-awesome.css'
+                'vendor/font-awesome/css/font-awesome.css',
+                'vendor/roboto-fontface/css/roboto/roboto-fontface.css',
+                'vendor/roboto-fontface/css/roboto-condensed/roboto-condensed-fontface.css',
+                'vendor/roboto-fontface/css/roboto-slab/roboto-slab-fontface.css'
+
             ],
             vendorFonts: [
                 'vendor/bootstrap/dist/fonts/glyphicons-halflings-regular.eot',
