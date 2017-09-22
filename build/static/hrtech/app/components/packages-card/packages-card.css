@@ -1,0 +1,96 @@
+.packages-container {
+  width: 100%;
+  margin: 0 auto;
+}
+.packages-container .box-container {
+  position: relative;
+  margin-left: 5px;
+  margin-right: 5px;
+  text-align: -webkit-center;
+}
+.packages-container .box-container .package-box {
+  height: 300px;
+  background-color: #f8f8f8;
+  max-width: 380px;
+  margin-top: 25px;
+  position: relative;
+  padding-bottom: 50px;
+  color: #00a7e1;
+  text-transform: uppercase;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.packages-container .box-container .package-box .bold {
+  font-weight: bold;
+}
+.packages-container .box-container .package-box .popular {
+  padding-top: 20px;
+  color: red;
+}
+.packages-container .box-container .package-box .title {
+  padding-top: 20px;
+}
+.packages-container .box-container .package-box .value {
+  padding-top: 20px;
+  font-size: 35pt;
+}
+.packages-container .box-container .package-box .saver {
+  padding-top: 5px;
+  color: grey;
+  text-transform: none;
+}
+.packages-container .box-container .package-box .validTill {
+  padding-top: 5px;
+  text-transform: none;
+}
+.packages-container .box-container .package-box .promoCode {
+  padding-top: 20px;
+  color: grey;
+  text-transform: none;
+}
+.packages-container .box-container .package-box .promoField input {
+  color: black;
+  width: 80%;
+  text-transform: none;
+  text-align: center;
+}
+.packages-container .box-container .package-box .book {
+  background-color: #00a7e1;
+  color: white;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all .2s linear;
+  -webkit-transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  -o-transition: all .2s linear;
+}
+.packages-container .box-container .package-box .book:hover {
+  background-color: white;
+  color: #00a7e1;
+  border: thin solid #00a7e1;
+}
+.packages-container .box-container .package-box .extra-text {
+  padding-top: 20px;
+  text-transform: none;
+  color: grey;
+  font-size: 13px;
+  text-align: left;
+  margin-left: 27px;
+}
+.packages-container .box-container .promo {
+  height: 350px !important;
+}
+.packages-container .box-container .promo .book {
+  background-color: red !important;
+}
+.packages-container .box-container .promo .book:hover {
+  background-color: white !important;
+  color: red !important;
+  border-color: red !important;
+}

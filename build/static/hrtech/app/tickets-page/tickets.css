@@ -1,0 +1,76 @@
+.tickets-body {
+  /* Height of the footer - padding-bottom*/
+  padding-bottom: 160px;
+}
+.tickets-body .selection-type {
+  width: 100%;
+  padding-top: 40px;
+  text-transform: uppercase;
+  color: #bee6f2;
+  font-size: 16px;
+}
+.tickets-body .selection-type .list {
+  margin: 0 auto;
+  text-align: center;
+}
+.tickets-body .selection-type .list span {
+  vertical-align: middle;
+}
+.tickets-body .selection-type .list .sold {
+  color: white;
+  background-color: #bee6f2;
+}
+.tickets-body .selection-type .list .active {
+  color: #00a7e1;
+  font-weight: bold;
+}
+.tickets-body .selection-type .list .slash {
+  font-size: 30px;
+}
+.tickets-body .selection-type .list .until {
+  color: black;
+  font-size: 12px;
+}
+.tickets-body .selection-type .list .date {
+  color: red;
+  font-size: 14px;
+}
+.tickets-body .info {
+  padding-top: 20px;
+  width: 100%;
+}
+.tickets-body .info .header-text {
+  width: 700px;
+  margin: 0 auto;
+  text-align: center;
+  color: grey;
+  font-size: 13px;
+}
+.tickets-body .extra-content {
+  padding-top: 50px;
+  width: 100%;
+  text-transform: uppercase;
+}
+.tickets-body .extra-content .close-section {
+  color: #00a7e1;
+  border: thin solid #00a7e1;
+  margin: 0 auto;
+  width: 150px;
+  text-align: center;
+  cursor: pointer;
+}
+.tickets-body .extra-content .partner {
+  padding-top: 100px;
+  color: grey;
+  text-align: center;
+}
+.tickets-body .extra-content .partner .images {
+  padding-top: 15px;
+  padding-bottom: 30px;
+}
+.tickets-body .extra-content .partner .images img {
+  height: 65px;
+  width: 65px;
+  margin-right: 10px;
+  margin-left: 10px;
+}
