@@ -1,0 +1,28 @@
+<div class="packages-container">
+    <div class="box-container row">
+        <div class="package-box col-sm-3 {{package.groupTypePromo === vm.groupType ? 'promo' : ''}}" id="package-{{package.id}}" data-ng-repeat="package in vm.packages track by $index">
+
+            <div class="popular" data-ng-if="package.groupTypePromo === vm.groupType">Most Popular</div>
+            <div class="{{package.groupTypePromo === vm.groupType ? '' : 'title'}} bold">{{package.title}}</div>
+            <div class="value bold"><i class="fa fa-euro"></i>{{package.value}}</div>
+            <div class="saver" data-ng-if="package.saver">{{package.saver}}</div>
+            <div class="validTill" data-ng-if="package.validTill">{{package.validTill}}</div>
+            <div class="promoCode" data-ng-if="package.promoCode">{{package.promoCode}}</div>
+            <div class="promoField" data-ng-if="package.promoField">
+                <input placeholder="{{package.promoField}}">
+            </div>
+
+            <div class="extra-text">
+                <ul>
+                    <li>Cold-pressed poke thundercats brooklyn chillwave chartreuse.</li>
+                    <li>Craft beer 3 wolf moon tbh hoodie.</li>
+                    <li>YOLO synth hammock.</li>
+                    <li>Distilery aesthetic VHS affogato gentrify bespoke.</li>
+                    <li>Chia readymade schlitz brunch yuccie echo park.</li>
+                </ul>
+            </div>
+
+            <div class="book">Book Now</div>
+        </div>
+    </div>
+</div>

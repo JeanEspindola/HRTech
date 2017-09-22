@@ -63,6 +63,7 @@
           color: black;
           width: 80%;
           text-transform: none;
+          text-align: center;
         }
       }
 
@@ -78,12 +79,16 @@
         cursor: pointer;
         font-weight: bold;
 
+        transition: all .2s linear;
+        -webkit-transition: all .2s linear;
+        -moz-transition: all .2s linear;
+        -o-transition: all .2s linear;
+
         &:hover{
           background-color: white;
           color: #00a7e1;
-          border-color: #00a7e1;
-          border-style: inset;
-          border-width: thin;
+
+          border: thin solid #00a7e1;
         }
       }
 

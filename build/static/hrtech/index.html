@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-US" data-ng-app="hrtech">
+
+<head>
+    <title>HRTech</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Expires" content="Sat, 01 Dec 2001 00:00:00 GMT">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- @@VENDOR-STYLES@@ -->
+    <link rel="stylesheet" href="/vendor/css/vendor.min.css"/>
+    <!-- @@VENDOR-STYLES@@ -->
+    <!-- @@APP-STYLES@@ -->
+    <link rel="stylesheet" href="/hrtech.min.css"/>
+    <!-- @@APP-STYLES@@ -->
+</head>
+
+<body data-ng-controller="hrtech.mainController as mainCtrl">
+
+    <div class="main-container">
+        <div class="header">
+            <img src="resources/menu-logo-2.svg">
+        </div>
+
+        <div ui-view></div>
+        <div data-ng-if="!mainCtrl.isAppLoaded" class="main-body"></div>
+
+        <div class="footer">
+            <div class="img">
+                <img src="resources/hr-tech-world-logo.svg">
+            </div>
+            <div class="extra">
+                <span>HRN</span>
+                <span>About</span>
+                <span>Team</span>
+                <span>Jobs</span>
+                <span>Contact</span>
+            </div>
+            <div class="social">
+                <i class="fa fa-twitter" title="Twitter"></i>
+                <i class="fa fa-linkedin" title="LinkedIn"></i>
+                <i class="fa fa-facebook" title="Facebook"></i>
+                <i class="fa fa-instagram" title="Instagram"></i>
+                <i class="fa fa-slideshare" title="Slideshare"></i>
+                <i class="fa fa-youtube-play" title="Youtube"></i>
+            </div>
+            <div class="contact">
+                <span>HRN | Terms & Conditions | Cookie Policy | Copyright <i class="fa fa-copyright"></i> 2015 HRN Europe. All Rights Reserved.</span>
+            </div>
+        </div>
+
+        <div data-ng-if="mainCtrl.isLoading" class="loading-overlay">
+            <i class="fa fa-spinner fa-pulse fa-3x fa-fw spinner"></i>
+        </div>
+    </div>
+
+    <!-- @@VENDOR-SCRIPTS@@ -->
+    <script src="/vendor/js/vendor.min.js"></script>
+    <!-- @@VENDOR-SCRIPTS@@ -->
+    <!-- @@APP-SCRIPTS@@ -->
+    <script src="/hrtech.min.js"></script>
+    <!-- @@APP-SCRIPTS@@ -->
+</body>
+</html>
