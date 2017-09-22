@@ -28,7 +28,7 @@ module.exports = function(grunt) {
            'less',
            'copy:all',
            'concat:all',
-           //'uglify',
+           'uglify',
            'cssmin',
            'clean:css',
            'tags:all'
