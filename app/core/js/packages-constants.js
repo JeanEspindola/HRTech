@@ -77,11 +77,3 @@
         }
     )
 })();
-
-/*
- Early Bird Soldout / Summer Saver {icone} until aug31 / Regular / Late / Onsite registration
-
-
- Fashion axe keytar truffaut migas. Farm-to-table PBR&B. Drinking vinegar sustainable helvetica sartorial. Dreamcatcher live-edge lo-fi, chartreuse echo park pinterest ditilley glossier plaid fingerstache. Fashion axe keytar truffaut migas. Farm-to-table PBR&B. Drinking vinegar sustainable helvetica
-
- */

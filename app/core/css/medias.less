@@ -40,6 +40,20 @@
 
     width: 24%
   }
+
+  .tickets-body {
+    .info {
+      display: block;
+    }
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .tickets-body {
+    .info {
+      display: none;
+    }
+  }
 }
 
 @media screen and (max-width: 1919px) and (min-width: 768px) {
@@ -67,6 +81,14 @@
         .break-line{
           display: none;
         }
+      }
+    }
+  }
+
+  .selection-type {
+    .list {
+      .break {
+        display: none
       }
     }
   }
@@ -103,6 +125,18 @@
           margin-top: 10px;
         }
       }
+    }
+  }
+
+  .selection-type {
+    .list {
+      .slash {
+        display: none;
+      }
+      .slash-reg {
+        display: none;
+      }
+
     }
   }
 
